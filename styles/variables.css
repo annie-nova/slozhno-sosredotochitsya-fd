@@ -6,15 +6,16 @@
 :root {
   --page-bg-img: url(../images/cover-image-dark.png);
   --page-bg-color: #000028;
-  --accent-color: #FF0070;
-  --page-font: 'IBM Plex mono';
+  --accent-color: #ff0070;
+  --page-font: "IBM Plex mono";
   --title-decor-color: #000028;
-  --title-color: #DB00FF;
+  --title-color: #db00ff;
   --button-outline-color: var(--accent-color);
   --font-size: 18px;
-  --regular-font:400;
+  --regular-font: 400;
   --bold-font: 700;
   --rec-dot-shadow: drop-shadow(0 0 4px var(--accent-color));
-  --menu-button-hover: #FF007066;
-  --text-color: #F1B2CE;
+  --menu-button-hover: #ff007066;
+  --text-color: #f1b2ce;
+  --section-title-color: var(--accent-color);
 }
