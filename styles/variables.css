@@ -14,6 +14,7 @@
   --font-size: 18px;
   --regular-font: 400;
   --bold-font: 700;
+  --main-line-height: 130%;
   --rec-dot-shadow: drop-shadow(0 0 4px var(--accent-color));
   --menu-button-hover: #ff007066;
   --text-color: #f1b2ce;

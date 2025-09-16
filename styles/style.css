@@ -124,6 +124,7 @@
 .section__title {
   color: var(--section-title-color);
   font-size: var(--font-size);
+  line-height: var(--main-line-height);
 }
 
 .main__section {
@@ -140,6 +141,7 @@
 .card__title {
   font-weight: var(--bold-font);
   font-size: var(--font-size);
+  line-height: var(--main-line-height);
 }
 
 .article__card {
@@ -153,7 +155,7 @@
 
 .card__text {
   color: var(--text-color);
-  line-height: 130%;
+  line-height: var(--main-line-height);
 }
 
 .card__link {
@@ -171,6 +173,11 @@
 
 .card__link:focus-visible {
   outline: 1px solid currentColor;
+}
+
+.gallery {
+  display: grid;
+  gap: 10px;
 }
 
 .gallery__img {
@@ -274,7 +281,6 @@
   }
 
   .gallery {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas:
