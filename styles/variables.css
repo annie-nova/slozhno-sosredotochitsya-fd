@@ -18,4 +18,6 @@
   --menu-button-hover: #ff007066;
   --text-color: #f1b2ce;
   --section-title-color: var(--accent-color);
+  --button-text-color: var(--accent-color);
+  --decorated-zone-color: var(--accent-color);
 }
