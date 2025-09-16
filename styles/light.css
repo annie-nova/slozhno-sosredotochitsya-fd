@@ -16,6 +16,7 @@
   --section-title-color: var(--text-color);
   --button-text-color: var(--text-color);
   --decorated-zone-color: var(--text-color);
+  --menu-button-focus-visible: var(--text-color);
 }
 
 .theme-light .header__rec {
@@ -35,6 +36,7 @@
     --section-title-color: var(--text-color);
     --button-text-color: var(--text-color);
     --decorated-zone-color: var(--text-color);
+    --menu-button-focus-visible: var(--text-color);
   }
 
   .header__rec {

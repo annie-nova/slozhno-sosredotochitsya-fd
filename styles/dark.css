@@ -16,4 +16,10 @@
   --section-title-color: var(--accent-color);
   --button-text-color: var(--accent-color);
   --decorated-zone-color: var(--accent-color);
+  --menu-button-focus-visible: var(--accent-color);
 }
+
+.theme-dark .header__rec {
+  display: flex;
+}
+

@@ -15,10 +15,11 @@
   --regular-font: 400;
   --bold-font: 700;
   --main-line-height: 130%;
-  --rec-dot-shadow: drop-shadow(0 0 4px var(--accent-color));
+  --rec-dot-shadow: 0 0 4px 2px var(--accent-color);
   --menu-button-hover: #ff007066;
   --text-color: #f1b2ce;
   --section-title-color: var(--accent-color);
   --button-text-color: var(--accent-color);
   --decorated-zone-color: var(--accent-color);
+  --menu-button-focus-visible: var(--accent-color);
 }

@@ -1,6 +1,6 @@
 .page {
   height: 100vh;
-  font-family: var(--page-font), sans-serif;
+  font-family: var(--page-font), monospace;
   font-size: var(--font-size);
   background: var(--page-bg-img) center no-repeat fixed;
   background-color: var(--page-bg-color);
@@ -36,7 +36,7 @@
   margin: 0 9px 0 10px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  filter: var(--rec-dot-shadow);
+  box-shadow: var(--rec-dot-shadow);
 }
 
 .header__theme-menu {
@@ -89,7 +89,7 @@
 
 .header__theme-menu-button:focus-visible {
   border: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--menu-button-focus-visible);
   outline: none;
 }
 
@@ -246,8 +246,7 @@
     padding: 0 20px 80px 20px;
   }
 
-  .section__why,
-  .section__how {
+  .content-section {
     grid-template-columns: 1fr 2fr;
   }
 
@@ -316,8 +315,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .section__why,
-  .section__how {
+  .content-section {
     gap: 10px;
   }
 
